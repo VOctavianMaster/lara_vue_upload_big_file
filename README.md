@@ -11,7 +11,6 @@ Before getting started, make sure you have the following software installed on y
 - **Node.js 16.x or higher**
 - **NPM/Yarn** (for managing frontend dependencies)
 - **MySQL** (or any other supported database)
-- **Redis** (if using queues)
 - **Git** (to clone the repository)
 
 ## Steps to Run the Project Locally
