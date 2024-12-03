@@ -15,7 +15,6 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/vasea', [TestController::class, 'testMethod']);
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
